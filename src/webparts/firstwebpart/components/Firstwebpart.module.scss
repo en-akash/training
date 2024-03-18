@@ -1,0 +1,139 @@
+@import '~@fluentui/react/dist/sass/References.scss';
+
+
+.firstwebpart {
+  
+  
+        
+  overflow: hidden;
+  padding: 1em;
+  color: "[theme:bodyText, default: #323130]";
+  color: var(--bodyText);
+  &.teams {
+    font-family: $ms-font-family-fallbacks;
+  }
+}
+
+.inlineflex {
+  display: flex;
+  flex-direction: row;
+}
+
+
+
+.links {
+  a {
+    text-decoration: none;
+    color: "[theme:link, default:#03787c]";
+    color: var(--link); // note: CSS Custom Properties support is limited to modern browsers only
+
+    &:hover {
+      text-decoration: underline;
+      color: "[theme:linkHovered, default: #014446]";
+      color: var(--linkHovered); // note: CSS Custom Properties support is limited to modern browsers only
+    }
+  }
+}
+
+  .btnbox{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+  }
+
+ 
+ .submitbtn{
+  margin-top: 20px;
+  justify-self: center;
+  background-color: #ce7b7f;
+ }
+ .formBody{
+  margin-top: -3px;
+    overflow-x: scroll;
+    width: 100%;
+    margin-left: 1px
+ }
+ .row{
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  // margin-left: -15px;
+ }
+ .leaveRequest{
+  
+  width: 99%;
+  margin-left: 4px;
+  padding-top: 22px;
+  color: "[theme:bodyText, default: #323130]";
+  color: var(--bodyText);
+  &.teams {
+    font-family: $ms-font-family-fallbacks;
+  }
+ }
+
+ .innerbox{
+  
+  display: flex;
+  margin: 10px 0px;
+  justify-content: space-between;
+  
+ }
+ .urgent{
+  margin-top: 10px;
+  margin-right: 50px;
+  
+ }
+
+ .gridContainer{
+  width: auto;
+  padding-left: 10px;
+  display: grid;
+  grid-template-columns: 60% auto;
+  // grid-template-rows: 400px 100px ;
+  overflow-x: hidden;
+  
+ }
+
+ .gridBox{
+  display: block;
+  
+  
+ }
+ .choice{
+  margin-left: 10px;
+  display: flex;
+  justify-content: space-around;
+  width: 200px;
+ }
+ .widthbox{
+  width: 200px;
+ }
+ .datepickerBox{
+  padding-top: 20px;
+ }
+ .textfield{
+  margin-top: 20px;
+ }
+ .balance{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 30px;
+  border: 1px solid;
+  border-radius: 10px;
+ }
+ .viewleave{
+  background-color: #9ab5ff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 10px;
+  border: 1px solid;
+  border-radius: 10px;
+ }
+ Label{
+  align-self: center;
+  padding: 2px;
+ }
